@@ -27,6 +27,7 @@ int main(){
     }
     else{
         printf("%s lost!\n");
+        
     }
  return 0;
 }
