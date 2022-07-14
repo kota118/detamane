@@ -22,5 +22,11 @@ int main(){
         }
     }
     printf("Heads; %d, Tails: %d\n",k,l);
+    if(k>l){
+        printf("%s won!\n",name);
+    }
+    else{
+        printf("%s lost!\n");
+    }
  return 0;
 }
